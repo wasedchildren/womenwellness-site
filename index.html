@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WomenWellness Pages</title>
+  <style>
+    :root {
+      --bg: #f7f1ea;
+      --card: #fffaf5;
+      --text: #2f2925;
+      --muted: #6d625b;
+      --accent: #c67061;
+      --line: #ead9cc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(180deg, #f4ede7 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 56px 20px 80px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: 0 12px 40px rgba(93, 66, 55, 0.08);
+    }
+    h1 {
+      font-size: 40px;
+      margin: 0 0 12px;
+    }
+    p {
+      margin: 0 0 16px;
+      font-size: 17px;
+    }
+    ul {
+      margin: 24px 0 0;
+      padding-left: 20px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover { text-decoration: underline; }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <h1>WomenWellness</h1>
+      <p>Public support pages for the WomenWellness iOS app.</p>
+      <p class="muted">Use the links below in App Store Connect.</p>
+      <ul>
+        <li><a href="./privacy/">Privacy Policy</a></li>
+        <li><a href="./support/">Support</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
